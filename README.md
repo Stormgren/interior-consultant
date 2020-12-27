@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://stormgren-interior-consultant.netlify.app">
       Demo
     </a>
     <span> | </span>
@@ -35,16 +35,15 @@
 <!-- OVERVIEW -->
 
 ## Overview
-Responsive:
+
+Single responsive page built with mobile first approach. It contains header with logo and menu, container with text and images and footer. It is adjusted for various screen sizes.
+
 ![responsive demo](https://user-images.githubusercontent.com/36208308/103165607-62de0880-481a-11eb-9c91-c25855301198.png)
 
 ![responsive menu](https://user-images.githubusercontent.com/36208308/103165616-7d17e680-481a-11eb-90a0-d7a364ac421a.png)
 
-Dekstop:
-
 ![dekstop view](https://user-images.githubusercontent.com/36208308/103165624-8c972f80-481a-11eb-83bc-2af3276f2202.png)
 
-Single responsive page built with mobile first approach. It contains header with logo and menu, container with text and images and footer. It is adjusted for various screen sizes.
 
 
 ### Built With
@@ -60,5 +59,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 
-- GitHub [@your-username](https://{https://github.com/Stormgren})
+- GitHub [@Stormgren](https://{https://github.com/Stormgren})
 
