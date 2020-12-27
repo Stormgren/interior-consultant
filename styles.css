@@ -1,4 +1,4 @@
-body{
+body {
     background: #181719;
     color: white;
 
@@ -10,21 +10,21 @@ header {
     align-items: center;
 }
 
-#logo{
-  font-family: 'Crimson Pro';
+#logo {
+    font-family: 'Crimson Pro';
     text-transform: uppercase;
     padding: 5px;
     text-align: center;
     border: 1px solid white;
     font-style: normal;
-font-weight: 200;
-font-size: 14px;
-line-height: 16px;
-   
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+
 
 }
 
-#hamburger{
+#hamburger {
     background: none;
     color: white;
     height: 40px;
@@ -35,7 +35,8 @@ line-height: 16px;
 .burger {
     filter: invert(1);
 }
-#menu{
+
+#menu {
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -46,13 +47,14 @@ line-height: 16px;
     width: 100%;
 }
 
-.menu__content{
+.menu__content {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 18px;
     text-decoration: none;
     color: white;
     margin-bottom: 35px;
+    border-bottom: 3px solid transparent;
 }
 
 .menu__content:hover {
@@ -65,15 +67,16 @@ line-height: 16px;
 }
 
 /* ############ CONTAINER ############# */
-#container{
+#container {
     min-height: calc(90vh - 70px);
 
 }
 
-#container__text{
+#container__text {
     margin-bottom: 30px;
 }
-#text__header{
+
+#text__header {
     font-family: 'Lora';
     font-style: normal;
     font-weight: normal;
@@ -82,7 +85,7 @@ line-height: 16px;
     color: #ffffff;
 }
 
-#text__content{
+#text__content {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
@@ -94,40 +97,41 @@ line-height: 16px;
 
 #read__more--btn {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-width: 110px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-text-decoration: none;
-color: #FFFFFF;
-border-bottom: 5px solid transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-bottom: 5px solid transparent;
 
 }
 
-#read__more--btn:hover{
-    
-    text-transform: none; 
+#read__more--btn:hover {
+
+    text-transform: none;
     border-bottom: 5px solid darkred;
 }
 
 
 /*################ CONTAINER IMAGE #######################*/
-#container__img{
+#container__img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-#big__img{
+
+#big__img {
     width: 100%;
     height: auto;
 }
 
-#card{
+#card {
     width: 270px;
     height: 120px;
     background-color: #181719;
@@ -138,55 +142,58 @@ border-bottom: 5px solid transparent;
     padding: 5px 10px;
 }
 
-.card__header{
+.card__header {
     display: inline-flex;
     align-items: center;
 }
 
-.card__img{
+.card__img {
     width: 40px;
-    height:40px;
+    height: 40px;
     border-radius: 50%;
-        
+
 }
-#header__info{
+
+#header__info {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     padding-left: 10px;
 }
 
-.card__name{
-  
-font-size: 12px;
-line-height: 15px;
-color: #FFFFFF;
+.card__name {
+
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
 }
 
-.card__role{
+.card__role {
 
-font-size: 10px;
-line-height: 12px;
-color: #828282;
+    font-size: 10px;
+    line-height: 12px;
+    color: #828282;
 }
 
-#card__text{
+#card__text {
     font-family: 'Lora';
     font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-color: #FFFFFF;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
 
-margin-top: 5px;
-} 
+    margin-top: 5px;
+}
+
 /*############## FOOTER ##############*/
-footer{
-   
+footer {
+
     width: 260px;
     margin: 0 auto;
     height: 50px;
 }
+
 #foota {
     border-top: 1px solid #A9A9A9;
     font-family: 'Montserrat';
@@ -197,30 +204,31 @@ footer{
     color: #A9A9A9;
     text-align: center;
     padding-top: 10px;
-    
+
 }
 
-@media (min-width: 575px) and (max-width: 750px){
-    
-    #container{
-     display: flex;
-     flex-direction:row ;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding-top: 30px;
+@media (min-width: 575px) and (max-width: 750px) {
+
+    #container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-top: 30px;
     }
 
-    #container__img{
+    #container__img {
         width: 320px;
     }
 }
 
-@media (min-width: 750px){
- 
-    #hamburger{
+@media (min-width: 750px) {
+
+    #hamburger {
         display: none;
     }
-    #menu{
+
+    #menu {
         display: inline-flex;
         flex-direction: row;
         justify-content: space-around;
@@ -231,68 +239,69 @@ footer{
         right: 0;
     }
 
-    #container{
+    #container {
         display: flex;
-        flex-direction:row ;
+        flex-direction: row;
         justify-content: space-around;
         padding-top: 50px;
     }
 
 
-    #container__img{
+    #container__img {
         width: 50vw;
-        
-    }   
+
+    }
 
 
 }
 
-@media (min-width: 1025px){
-    #text__header{
+@media (min-width: 1025px) {
+    #text__header {
         font-size: 48px;
         line-height: 61px;
     }
 
-    #text__content{
+    #text__content {
         font-size: 24px;
         line-height: 30px;
     }
 
-    #read__more--btn{
+    #read__more--btn {
         font-size: 18px;
         line-height: 22px;
         width: 140px;
     }
 }
-@media (min-width: 1200px){
-    
- #card{
+
+@media (min-width: 1200px) {
+
+    #card {
         width: 325px;
         height: 155px;
         padding: 15px;
         left: 10vw;
         bottom: 70px;
-        
+
     }
 
-    .card__img{
+    .card__img {
         width: 60px;
         height: 60px;
     }
-    
-    .card__name{
+
+    .card__name {
         font-size: 14px;
         line-height: 17px;
     }
 
-    .card__role{
+    .card__role {
         font-size: 12px;
         line-height: 15px;
     }
 
-    #card__text{
+    #card__text {
         font-size: 24px;
         line-height: 30px;
-    }  
+    }
 
 }
